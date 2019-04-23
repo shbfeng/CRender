@@ -5,7 +5,7 @@ namespace CRender
 {
     public static class CRenderer
     {
-        public static float LastFrameElapsed { get; private set; } = 0;
+        private static float LastFrameElapsed { get; set; } = 0;
 
         public static float CurrentSecond { get; private set; } = 0;
 
